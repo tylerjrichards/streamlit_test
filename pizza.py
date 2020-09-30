@@ -2,6 +2,8 @@ import streamlit as st
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
+st.set_option('deprecation.showPyplotGlobalUse', False)
+
 
 st.markdown('Hey there, this is just a test for the new streamlit deployment method')
 
